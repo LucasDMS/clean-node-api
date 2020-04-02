@@ -11,17 +11,6 @@
     "url": "git+https://github.com/LucasDMS/clean-node-api.git"
   },
   "author": "",
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LucasDMS/clean-node-api/issues"
