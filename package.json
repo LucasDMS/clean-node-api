@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   "homepage": "https://github.com/LucasDMS/clean-node-api#readme",
   "devDependencies": {
     "husky": "^4.2.3",
+    "jest": "^25.2.6",
     "lint-staged": "^10.1.1",
     "standard": "^14.3.3"
   }
